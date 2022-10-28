@@ -4,11 +4,20 @@
     box-sizing: border-box;
 }
 
+body{
+    color: #fff;
+    background-color: #000;
+}
+
 header{
     height: 50px;
-    background-color: red;
+    background-color:transparent;
     width: 100%;
     margin-bottom: 20px;
+}
+
+main{
+    background-color: #000;
 }
 
 .container-main{
@@ -26,6 +35,7 @@ header{
     background-color: blue;
     height: 150px;
     margin: 10px 5px;
+    position: relative;
 }
 
 .col.audio-video{
@@ -40,9 +50,71 @@ col.bk-grey{
     width: 25%;
 }
 
-
 footer{
     height: 100px;
     background-color: green;
 }
 
+button{
+    color: #fff;
+    background-color:#4A4A4A;
+    border-style: none;
+}
+
+/* utility */
+
+.padding-5px-3px{
+    padding: 5px 3px;
+}
+
+.br-rds-5px{
+    border-radius: 5px;
+}
+
+.margin-bottom-20px{
+    margin-bottom: 20px;
+}
+
+/* header */
+
+.button-right{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 5px;
+}
+
+.ingrandisci{
+    margin: 0px 5px;
+}
+
+/* main */
+
+.col.zoom-window img{
+    width: 100%;
+}
+
+.nome{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px;
+    background-color: #0000005c;
+}
+
+
+
+
+
+
+/* footer */
+
+
+
+.icons-list ul{
+    display: flex;
+    list-style: none;
+}
+
+.icons-list ul li{
+    padding: 0px 10px;
+}
