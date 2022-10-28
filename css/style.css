@@ -46,6 +46,10 @@ main{
     width: 50%;
 }
 
+.col.bk-grey{
+    width: 25%;
+}
+
 col.bk-grey{
     width: 25%;
 }
@@ -53,6 +57,9 @@ col.bk-grey{
 footer{
     height: 100px;
     background-color: green;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 button{
@@ -108,7 +115,10 @@ button{
 
 /* footer */
 
-
+.container-footer{
+   width: 100%;
+   justify-content: space-around;
+}
 
 .icons-list ul{
     display: flex;
