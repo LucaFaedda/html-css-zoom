@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 50px;
+    background-color: red;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container-main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.col.zoom-window{
+    width: calc(100% / 7 );
+    background-color: blue;
+    height: 150px;
+    margin: 10px 5px;
+}
+
+.col.audio-video{
+    width: 25%;
+}
+
+.col.unorder-list{
+    width: 50%;
+}
+
+col.bk-grey{
+    width: 25%;
+}
+
+
+footer{
+    height: 100px;
+    background-color: green;
+}
+
