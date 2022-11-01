@@ -32,37 +32,32 @@ main{
 .row{
     width: 100%;
     display: flex;
+    
 }
 
 .col.zoom-window{
     width: calc(100% / 7 );
-    margin: 10px 5px;
+    margin: 5px 0px;
     position: relative;
 }
 
 .col.audio-video{
-    width: 25%;
+    width: 10%;
 }
 
 .col.unorder-list{
-    width: 50%;
+    width: 80%;
 }
 
 .col.bk-grey{
-    width: 25%;
+    width: 10%;
 }
 
-col.bk-grey{
-    width: 25%;
-}
 
 footer{
-    height: 100px;
     background-color:#4A4A4A ;
-    width: 100%;
-    display: flex;
-    align-items: center;
 }
+
 
 button{
     color: #fff;
@@ -71,6 +66,12 @@ button{
 }
 
 /* utility */
+
+.height-100px{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
 
 .padding-5px-3px{
     padding: 5px 3px;
@@ -82,6 +83,18 @@ button{
 
 .margin-bottom-20px{
     margin-bottom: 20px;
+}
+
+.padding-lr-10px{
+    padding:0px 10px;
+}
+
+.padding-r-15px{
+    padding-right: 15px;
+}
+
+.color-green{
+    color: green;
 }
 
 /* header */
@@ -99,7 +112,7 @@ button{
 /* main */
 
 .col.zoom-window img{
-    width: 100%;
+    width: 80%;
 }
 
 .nome{
@@ -110,12 +123,15 @@ button{
     background-color: #0000005c;
 }
 
-
-
-
-
-
 /* footer */
+
+footer p{
+    font-size: 15px;
+}
+
+.font-size-30px{
+    font-size: 30px;
+}
 
 .container-footer{
    width: 100%;
@@ -129,12 +145,19 @@ button{
     justify-content: center;
 }
 
-.icons-list ul li p{
-    font-size: 15px;
-}
 
 .icons-list ul li{
     padding: 0px 15px;
-    font-size: 30px;
     text-align: center;
+}
+
+.col.bk-grey{
+    text-align: center;
+    color: red;
+    background-color: lightgray;
+    height: 100%;
+}
+
+.end-meeting{
+    transform:translateY(40px);
 }
