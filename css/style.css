@@ -19,7 +19,6 @@ header{
 
 main{
     background-color: #000;
-    width: 100vw;
     height: calc(100vh - 170px);
     overflow-y: auto;
 }
@@ -131,12 +130,6 @@ footer p{
 
 .font-size-30px{
     font-size: 30px;
-}
-
-.container-footer{
-   width: 100%;
-   justify-content: space-around;
-   
 }
 
 .icons-list ul{
